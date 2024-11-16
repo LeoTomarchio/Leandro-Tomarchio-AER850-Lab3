@@ -1,0 +1,14 @@
+path: C:/Users/leand/Documents/GitHub/Leandro-Tomarchio-AER850-Lab3/data  # Full path to data folder
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 13
+names: ['Button', 'Capacitor', 'Connector', 'Diode', 'Electrolytic Capacitor', 'IC', 'Inductor', 'Led', 'Pads', 'Pins', 'Resistor', 'Switch', 'Transistor']
+
+roboflow:
+  workspace: spudzy-y0jgr
+  project: smd-components-grhiz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/spudzy-y0jgr/smd-components-grhiz/dataset/1
